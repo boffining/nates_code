@@ -10,3 +10,6 @@ Then call the template functions like a normal python package.
 These template functions are meant to be printed in Jupyter Notebook and appear as follows:
 
 ![](examples/example_usage.png?raw=true)
+
+
+The printed text can then be copied and pasted into code cells.
