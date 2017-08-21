@@ -13,3 +13,8 @@ These template functions are meant to be printed in Jupyter Notebook and appear 
 
 
 The printed text can then be copied and pasted into code cells.
+
+
+To Add:
+- Page Rank from Scratch Code
+-
