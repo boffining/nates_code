@@ -7,5 +7,5 @@ setup(name='nates',
       author='Nate',
       author_email='nate@example.com',
       license='MIT',
-      packages=['nates', 'nates.templates', 'nates.projects'],
+      packages=['nates', 'nates.functions', 'nates.templates', 'nates.projects'],
       zip_safe=False)
