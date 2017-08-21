@@ -7,5 +7,5 @@ setup(name='nates',
       author='Nate',
       author_email='nate@example.com',
       license='MIT',
-      packages=['nates'],
+      packages=['nates', 'nates.nlp'],
       zip_safe=False)

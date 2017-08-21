@@ -1,4 +1,3 @@
-
 def line_generator_template():
     string = [
     "import codecs",

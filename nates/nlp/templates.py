@@ -1,4 +1,5 @@
-def w2v_template():
+#from __future__ import absolute_import;
+def w2v():
     """ Prints gensim word2vec template"""
     string = [
     "from gensim.models import Word2Vec\n",
@@ -31,7 +32,7 @@ def w2v_template():
     print(output)
 
 
-def most_similar_template():
+def most_similar():
     """Prints a function for finding the most cosine similar words in an array."""
     string = [
     "def most_similar(word, a_input, v_input):",
@@ -53,7 +54,7 @@ def most_similar_template():
     print(output)
 
 
-def sentence_joiner_template():
+def sentence_joiner():
     "Prints custom function to undo wrapped text."
     string = [
     "# find the first sentence ending punctuation.",
@@ -117,7 +118,7 @@ def sentence_joiner_template():
     print(output)
 
 
-def pdf_scraper_template():
+def pdf_scraper():
     string = [
     "import os",
     "import codecs",
@@ -176,7 +177,7 @@ def pdf_scraper_template():
     print(output)
 
 
-def make_tfidf_corpus_template():
+def make_tfidf_corpus():
     string = [
     "from textblob import TextBlob",
     "from collections import Counter",
