@@ -1,4 +1,4 @@
-def line_generator_template():
+def line_generator():
     string = [
     "import codecs",
     "def line_review(filename):",
@@ -16,7 +16,7 @@ def line_generator_template():
     print(output)
 
 
-def array_to_txt_template():
+def array_to_txt():
     string = [
     "import codecs",
     "with codecs.open(output_filepath, 'w', encoding='utf_8') as f:",
